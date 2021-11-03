@@ -9,12 +9,23 @@
 }
 
 .shoebox {
-    background-color: #ff0000;
     height: 100vh;
     position: relative;
 }
 
-.shoe1 {
+.red-bg {
+    background-color: #ff0000;
+}
+
+.green-bg {
+    background-color: #008200;
+}
+
+.yellow-bg {
+    background-color: #ffff00;
+}
+
+.shoe {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,4 +42,8 @@
 
 .yellow-text {
     color: #ffff00;
+}
+
+.green-text {
+    color: #008200;
 }
